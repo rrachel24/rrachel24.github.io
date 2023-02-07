@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <cd>
+<table border=3>
+<cd>
+<tr>
+<th></th>
+<th>Artist</th>
+<th>Country</th>
+<th>Company</th>
+<th>Price</th>
+<th>Year</th>
+</cd>
+<tr>
+    <td><title>Numb Little Bug</title></td>
+    <td><artist>Em Beihold</artist></td>
+    <td><country>US</country></td>
+    <td><company>Moon Projects</company></td>
+    <td><price>10.90</price></td>
+    <td><year>2022</year></td>
+</tr>
+</cd>
+<cd>
+<tr>
+    <td><title>Unity</title></td>
+    <td><artist>Marshmello</artist></td>
+    <td><country>US</country></td>
+    <td><company>MGX Creative</company></td>
+    <td><price>9.90</price></td>
+    <td><year>2023</year></td>
+</tr>
+  </cd>
+  <cd>
+<tr>
+    <td><title>Beautiful Mistakes</title></td>
+    <td><artist>Maroon 5 ft. Megan The Stallion</artist></td>
+    <td><country>US</country></td>
+    <td><company>WM Phoenix Open. Scottsdale, AZ</company></td>
+    <td><price>9.90</price></td>
+    <td><year>2022</year></td>
+</tr>
+  </cd>
+  <cd>
+<tr>
+    <td><title>Flexing So Hard</title></td>
+    <td><artist>Higher Brothers</artist></td>
+    <td><country>China</country></td>
+    <td><company>Kid Art</company></td>
+    <td><price>10.20</price></td>
+    <td><year>2020</year></td>
+</tr>
+  </cd>
+  <cd>
+<tr>
+    <td><title>SHEEP </title></td>
+    <td><artist>LAY</artist></td>
+    <td><country>China</country></td>
+    <td><company>SM TOWN</company></td>
+    <td><price>9.90</price></td>
+    <td><year>2017</year></td>
+</tr>
+  </cd>
+  <cd>
+<tr>
+    <td><title>FXXK IT</title></td>
+    <td><artist>BIGBANG</artist></td>
+    <td><country>Korea</country></td>
+    <td><company>YG</company></td>
+    <td><price>10.90</price></td>
+    <td><year>2016</year></td>
+</tr>
+  </cd>
+  <cd>
+<tr>
+    <td><title>Ko Ko Bop</title></td>
+    <td><artist>EXO</artist></td>
+    <td><country>Korea</country></td>
+    <td><company>SM TOWN</company></td>
+    <td><price>8.10</price></td>
+    <td><year>2017</year></td>
+</tr>
+  </cd>
+  <cd>
+<tr>
+    <td><title>Baby</title></td>
+    <td><artist>Justin Bieber ft. Ludacris</artist></td>
+    <td><country>US</country></td>
+    <td><company>SonyATV,</company></td>
+    <td><price>8.50</price></td>
+    <td><year>2010</year></td>
+<tr>
+  </cd>
+  <cd>
+<tr>
+    <td><title>Give Me Everything</title></td>
+    <td><artist>Pitbull ft. Ne-Yo, Afrojack, Nayer</artist></td>
+    <td><country>US</country></td>
+    <td><company>HIGHER</company></td>
+    <td><price>10.80</price></td>
+    <td><year>2011</year></td>
+</tr>
+  </cd>
+  <cd>
+<tr>
+    <td><title>When a man loves a woman</title></td>
+    <td><artist>Percy Sledge</artist></td>
+    <td><country>US</country></td>
+    <td><company>Atlantic</company></td>
+    <td><price>8.70</price></td>
+    <td><year>1987</year></td>
+</tr>
+  </cd>
+  <cd>
+<tr>
+    <td><title>Don’t Wake Me Up</title></td>
+    <td><artist>Jonas Blue, Why Don't We</artist></td>
+    <td><country>US</country></td>
+    <td><company>Sony Music</company></td>
+    <td><price>10.90</price></td>
+    <td><year>2022</year></td>
+</tr>
+  </cd>
+  <cd>
+<tr>
+    <td><title>It's You</title></td>
+    <td><artist>Ali Gatie</artist></td>
+    <td><country>US</country></td>
+    <td><company>SonyATV</company></td>
+    <td><price>10.20</price></td>
+    <td><year>2020</year></td>
+</tr>  
+</cd>
+  <cd>
+    <td><title>Fun Fair</title></td>
+    <td><artist>Jay Chou</artist></td>
+    <td><country>Taiwan</country></td>
+    <td><company>JVR</company></td>
+    <td><price>8.70</price></td>
+    <td><year>2012</year></td>
+  </cd>
+  <cd>
+<tr>
+    <td><title>Sunroof</title></td>
+    <td><artist>Nicky Youre, dazy</artist></td>
+    <td><country>USA</country></td>
+    <td><company>SME</company></td>
+    <td><price>9.90</price></td>
+    <td><year>2022</year></td>
+</tr> 
+  </cd>
+  <cd>
+    <td><title>Mood</title></td>
+    <td><artist>24kGoldn ft. iann dior</artist></td>
+    <td><country>US</country></td>
+    <td><company>SME</company></td>
+    <td><price>8.20</price></td>
+    <td><year>2020</year></td>
+  </cd>
+  <cd>
+<tr>
+    <td><title>Sunflower</title></td>
+    <td><artist>Post Malone, Swae Lee</artist></td>
+    <td><country>US</country></td>
+    <td><company>Republic Records</company></td>
+    <td><price>7.90</price></td>
+    <td><year>2018</year></td>
+</tr>
+  </cd>
+  <cd>
+<tr>
+    <td><title>The very best of</title></td>
+    <td><artist>Cat Stevens</artist></td>
+    <td><country>UK</country></td>
+    <td><company>Island</company></td>
+    <td><price>8.90</price></td>
+    <td><year>1990</year></td>
+</tr>
+  </cd>
+  <cd>
+<tr>
+    <td><title>Timber</title></td>
+    <td><artist>Pitbull ft. KeSha</artist></td>
+    <td><country>US</country></td>
+    <td><company>SME</company></td>
+    <td><price>8.90</price></td>
+    <td><year>2013</year></td>
+</tr>
+  </cd>
+  <cd>
+<tr>
+    <td><title>Mama</title></td>
+    <td><artist>Jonas Blue ft. William Singe</artist></td>
+    <td><country>UK</country></td>
+    <td><company>UMG</company></td>
+    <td><price>7.90</price></td>
+    <td><year>2017</year></td>
+</tr>
+  </cd>
+  <cd>
+<tr>
+    <td><title>Meant to Be</title></td>
+    <td><artist>Bebe Rexha</artist></td>
+    <td><country>UK</country></td>
+    <td><company>WMG</company></td>
+    <td><price>8.90</price></td>
+    <td><year>2017</year></td>
+</tr>
+  </cd>
+  <cd>
+<tr>
+    <td><title>I'm A Mess</title></td>
+    <td><artist>Bebe Rexha</artist></td>
+    <td><country>UK</country></td>
+    <td><company>WMG</company></td>
+    <td><price>7.80</price></td>
+    <td><year>2018</year></td>
+</tr>
+  </cd>
+  <cd>
+<tr>
+    <td><title>Wolves</title></td>
+    <td><artist>Selena Gomez, Marshmello</artist></td>
+    <td><country>US</country></td>
+    <td><company>Columbia</company></td>
+    <td><price>9.90</price></td>
+    <td><year>2017</year></td>
+</tr>
+  </cd>
+  <cd>
+<tr>
+    <td><title>abcdefu</title></td>
+    <td><artist>GAYLE</artist></td>
+    <td><country>USA</country></td>
+    <td><company>Atlantic Records</company></td>
+    <td><price>7.90</price></td>
+    <td><year>2021</year></td>
+</tr>
+  </cd>
+  <cd>
+<tr>
+    <td><title>Rude</title></td>
+    <td><artist>MAGIC!</artist></td>
+    <td><country>US</country></td>
+    <td><company>Latium Records</company></td>
+    <td><price>7.20</price></td>
+    <td><year>2013</year></td>
+</tr>
+  </cd>
+  <cd>
+<tr>
+    <td><title>Dessert</title></td>
+    <td><artist>Dawin</artist></td>
+    <td><country>US</country></td>
+    <td><company>Casablanca new</company></td>
+    <td><price>7.80</price></td>
+    <td><year>2015</year></td>
+</tr>
+  </cd>
+  <cd>
+<tr>
+    <td><title>What Makes You Beautiful</title></td>
+    <td><artist>One Direction</artist></td>
+    <td><country>USA</country></td>
+    <td><company>UBEM</company></td>
+    <td><price>8.20</price></td>
+    <td><year>2011</year></td>
+</tr>
+  </cd>
+</table>
+</cd>
+</catalog>
