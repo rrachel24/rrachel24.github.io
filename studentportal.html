@@ -1,0 +1,81 @@
+<html>
+<head><title>Student Portal</title><head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<color bgcolor="pale turquoise";text="black"; align="right">
+<link rel="stylesheet"type="text/css"
+href="kly.css">
+
+<script>
+function biglmg(x) {
+x.style.height="350px";
+x.style.width="450px";
+}
+function normallmg(x) {
+x.style.height="300px";
+x.style.width="400px";
+}
+</script>
+<script>
+function validateForm() {
+let x = document.StudentPortal.userid.value;
+if (x ==""){
+alert("Please provide your Student ID!");
+return false;
+}
+
+var letters = /^[A-Za-z0-9]/;
+if (!x.match(letters))
+{
+alert("Please enter letters and numbers.");
+return false;
+}
+}
+</script></head>
+
+<body topmargin=25>
+<p style="color:hotpink; font-size:400%; font-family:Impact;">KLY INTERNATIONAL INSTITUTE
+<img src="klylogo.jpg" height=120px width=120px border=5 align=right>
+<br><br>
+<hr size="50" color="#191970">
+<br>
+
+<body topmargin="50"><center><form name=StudentPortal onsubmit="return validateForm()">
+<p style=font-family:Arial;font-size:200%;text-align:center;">
+<br>
+<table border=3 cellspacing=10 align=center style="border:5px solid black;background-color:#FFE4C4;width:40%;height:40%;"><caption><b>Welcome to KLY Student Portal!</b></caption>
+<tr>
+<th class="title" width='40%'>Student ID:</th>
+<td align=center><input type=text name=userid></td>
+</tr>
+<tr>
+<th class="title" width='40%'>Login password:</th>
+<td align=center><input type=password name=loginpass></td>
+</tr></table></p>
+<br>
+<input type=reset value=Reset>
+<input type=submit value=Login>
+</form></center><br><br><br>
+<img onmouseenter="biglmg(this)" onmouseout="normallmg(this)"src="exam.jpg" height=300px width=400px border=2 align=left>
+<img onmouseenter="biglmg(this)" onmouseout="normallmg(this)"src="examresult.jpg" height=300px width=400px border=2 align=middle>
+<img onmouseenter="biglmg(this)" onmouseout="normallmg(this)"src="coursework.jpg" height=300px width=400px border=2 align=left>
+<br><br><br><br><br><br><br><br><br><hr size="50" color="#191970">
+
+<p style="color:#800000; font-size:70%; font-family:Calibri;">
+<table border=3 cellspacing=10 align=center style="border:5px dotted #B0C4DE;background-color:#FFFAFA;width:80%;height:40%;">
+<caption>INFORMATION<br></caption>
+<tr><th>Our operating hours:</th>
+<td><ul type=square><li>Mon to Fri: 9am-6.30pm</li>
+<li>Sat, Sun & PH: Closed</li></td></tr>
+<tr><th>Our Campuses: </th>
+<td><ul type=square><li><a href="https://www.google.com.my/maps/place/715+Ang+Mo+Kio+Ave+6,+%2302-4000,+Singapore+560715/@1.3710057,103.8371518,15z/data=!3m1!4b1!4m6!3m5!1s0x31da16e775e242d9:0x9a135107b405eaed!8m2!3d1.3710057!4d103.8459066!16s%2Fg%2F11ll9gz2cl?hl=en&authuser=0" target="_blank">Ang Mo Kio 715, Ang Mo Kio Avenue 6, #02-4000, Singapore 560715</a></li><br>
+<li><a href="https://www.google.com.my/maps/place/135+Jurong+Gateway+Rd,+%2303-341,+Singapore+600135/@1.3338165,103.7311409,15z/data=!3m1!4b1!4m6!3m5!1s0x31da100584915f73:0x3ca13036b87bcc54!8m2!3d1.3338165!4d103.7398957!16s%2Fg%2F11ll9fdpx6?hl=en&authuser=0" target="_blank">Jurong East 135, Jurong Gateway Road, #03-341, Singapore 600135</a></li><br>
+<li><a href="https://www.google.com.my/maps/@1.3338165,103.7311409,15z?hl=en&authuser=0" target="_blank">Yio Chu Kang 449 Yio Chu Kang Road, Singapore 805946</a></li></td></tr>
+<tr><th>Course Enquires:</th>
+<td><a href="https://rrachel24.github.io/KLYContactUs.html" target="_blank">Click here for our full contact list.</a></td></tr>
+<tr><th>Online Inquiry:</TH>
+<TD><a href="https://rrachel24.github.io/onlineinquiry.html" target="_blank">Submit your online inquiry form here.</a></TD></TR>
+<TR><th>Student Portal:</th>
+<TD><a href="https://rrachel24.github.io/studentportal.html" target="_blank">Click here go to Student Portal.</a></TD></tr>
+
+</table>
+</body></html>
