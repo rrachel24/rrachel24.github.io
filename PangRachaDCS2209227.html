@@ -1,0 +1,57 @@
+<html><head><title>Cute Form</title>
+<link rel="stylesheet" href="PangRachaDCS2209227.css">
+
+<script>
+function validateForm(){
+let x = document.PangRachaDCS2209227.studentid.value;
+if (x =="")
+{
+alert("Please provide your Student ID!");
+return false;
+}
+}
+</script></head>
+
+<body topmargin=50><center>
+<form name=PangRachaDCS2209227 onsubmit="return validateForm()">
+<table><caption><b>DCS3003 Website Design Course Survey</b></caption>
+<tr><td colspan=2><u><B>Personal detail</b></u></td>
+</tr><tr>
+<td>Student ID    :<input type=text name=studentid></td>
+<td>Student Name  :<input type=text name=name></td>
+</tr><tr>
+<td>Course        :<input type=text name=course name></td>
+<td>IC No.        :<input type=number name=ICNo></td>
+</tr><tr>
+<td>Email address :<input type=text name=email></td>
+<td>D.O.B.        :<input type=date name=dob></td>
+</tr></table><br><br><br>
+
+<table>
+<tr><td colspan=2><u><B>Questions</B></U><br>
+*Please answer all questions</td>
+</tr><tr>
+<td><ol type=1>
+<li>Have you grasped the content of the Website Design so far?</li></ol></td>
+<td><input type=radio name=affirmative value=yes>Yes<br>
+<input type=radio name=affirmative value=no>No</td>
+</tr><tr>
+<td><ol type=1 start=2>
+<li>Can you now create a simple but interactive website?</li></ol></td>
+<td><input type=radio name="ans" value=yes>Yes<br>
+<input type=radio name="ans" value=no>No</td>
+</tr><tr>
+<td><ol type=1 start=3>
+<li>What have you learned so far?</li></ol></td>
+<td><input type=checkbox name=learn=knowledge>Knowledge<br>
+<input type=checkbox name=learn=practical_skills>Practical Skills<br>
+<input type=checkbox name=learn=problem_solving>Problem Solving<br>
+<input type=checkbox name=learn=self-exploration_skills>Self-Exploration Skills</td>
+</tr><tr>
+<td colspan=2><ol type=1 start=4>
+<li>Wish items/suggestions</li></ol>
+<textarea rows=4 cols=100 name=address></textarea></td>
+</tr></table><br><br>
+<input type=reset value=Reset>
+<input type=submit value=Submit></td></tr>
+</form></center></body></html>
