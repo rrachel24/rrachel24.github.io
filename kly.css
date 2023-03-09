@@ -1,0 +1,40 @@
+table{
+font-family:century gothic;font-size:20pt;
+}
+caption{ 
+text-align:center;font-weight:bold;font-size:18pt;height:50px;
+}
+th,td{
+padding:15px;height:20%;font-size:18pt;background-color:#FFFAFA;
+}
+td.title{
+font-weight:bold;font-size:large;background-color:#FFFAFA;color:#006400;
+}
+.main{
+height:20vh;
+width: 100%;
+}
+nav{
+background: #FFC0CB;
+height: 40px;
+width;100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-top:40px;
+padding-left:10%;
+}
+nav ul li{
+list-style-type: none;
+display:inline-block;
+padding:10px 20px;
+}
+nav ul li a{
+color : black;
+text-decoration: none;
+font-weight:bold;
+}
+nav ul li a:hover{
+color: #ea1538;
+transition: .3s;
+}
