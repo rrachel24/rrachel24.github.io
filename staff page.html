@@ -1,0 +1,50 @@
+<html><head><title>Staff Management System</title>
+    <link rel="stylesheet" type="text/css"
+    href="staff.css">
+    
+    <script>
+    function validateForm()
+    {
+    
+    let x = document.staffpage.staffid.value;
+    if (x ==""){
+    alert("Please provide your Staff ID!");
+    return false;
+    }
+    
+    let y = document.staffpage.password.value;
+    if (y =="")
+    {
+    alert("Please enter your password!");
+    return false;
+    }
+    
+    }
+    </script>
+    <style>
+        table, th, td {
+          border: 2px solid #FF69B4;
+          border-collapse: collapse;
+        }
+        </style>
+    </head>
+    
+    <body topmargin=50 bgcolor=	#FFF5EE><center>
+    <form name=staffpage onsubmit="return validateForm()">
+        <caption><b><font color=#DC143C" size="10" face="Impact">Welcome to Staff Management System!</font></b></caption><br><br>
+    <table>
+        <img onclick="biglmg(this)" onmouseout="normallmg(this)"src="librarystaff.png" height=450px width=450px border=2 align=center><br><br><br>
+    <tr><td colspan=4><B>Staff login detail:</b></td>
+    </tr><tr>
+    <td>Staff ID</td>
+    <td>:<input type=text name=staffid></td>
+    <tr><td>Login password:</td>
+    <td>:<input type="password" name=loginpass minlength="6" maxlength="6"></td>
+    </tr><tr></table>
+<br><br>
+    <input type=reset value=Reset>
+    <input type=submit value=Submit></td></tr>
+    </form></center><br><br>
+    
+    </body></html>
+    
