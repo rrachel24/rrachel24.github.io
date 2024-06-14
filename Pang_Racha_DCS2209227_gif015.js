@@ -214,13 +214,13 @@ function displayAnimation() {
   let currentTime = millis(); // Get the current time
   // Display image in the middle
   if (img) {
-    image(img, 400, 120, 500, 400); // Adjust the position and size as needed
+    image(img, 400, 180, 500, 400); // Adjust the position and size as needed
   }
 
   // Move the text from (0, 680) to the right
   if (currentTime - lastTime > 2350) {
     lastTime = currentTime;
-    texts.push(createVector(-500, 640)); // Add new text to the bottom
+    texts.push(createVector(-500, 100)); // Add new text to the bottom
   }
 
   for (let i = 0; i < texts.length; i++) {
@@ -235,11 +235,11 @@ function displayAnimation() {
     }
   }
 
-  // Reset the animation loop
-  if (texts.length === 0 && currentTime - lastTime > 5000) {
-    resetScene(); // Reset the scene
-  }
-}
+    // Reset the animation loop
+    if (!resetInterval && currentTime > 5000) {
+      resetInterval = setInterval(resetScene, 13000); 
+    }
+  } // Reset the scene
 
 function resetScene() {
   loopCount = 0; // Reset the loop counter
