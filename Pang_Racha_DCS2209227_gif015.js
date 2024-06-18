@@ -229,7 +229,7 @@ function displayAnimation() {
     fill(0, 128, 255);
     textSize(27);
     text("Crescendo International College", textPos.x, textPos.y); // Display the text
-    textPos.x += 3; // Move the text to the right
+    textPos.x += 3.5; // Move the text to the right
     if (textPos.x > width) {
       texts.splice(i, 1); // Remove text if it goes off screen
       i--;
